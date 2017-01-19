@@ -12,7 +12,7 @@ public class Task1_10 {
                 n = Integer.parseInt(args[0]);
             }catch (java.lang.NumberFormatException e){
 
-                System.out.println("Enter 1 argument, an an even number > 0.");
+                System.out.println("Enter 1 argument, an even number > 0.");
                 return;
             }
 
@@ -43,12 +43,12 @@ public class Task1_10 {
                     System.out.println();
                 }
             } else {
-                System.out.println("Enter 1 argument, an an even number > 0. Your number is not even!");
+                System.out.println("Enter 1 argument, an even number > 0. Your number is not even!");
             }
 
         } else {
 
-            System.out.println("Enter 1 argument, an an even number > 0.");
+            System.out.println("Enter 1 argument, an even number > 0.");
         }
     }
 }
